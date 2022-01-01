@@ -1,0 +1,57 @@
+/* General styling */
+
+.page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 2rem;
+}
+
+.page h1{
+    font-size: 2rem;
+    line-height: 1.2;
+    margin: 1rem;
+    color: #EB5026;
+}
+
+.page p{
+    font-size: 1rem;
+}
+
+.btn-primary{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    transition: all;
+    background: #000;
+    color: #fff;
+}
+
+.btn-secondary{
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    transition: all;
+    background: #595353;
+    color: #fff;
+}
+
+/* Footer styling */
+
+#page-footer-p{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 0.7rem;
+    font-style: italic;
+}
